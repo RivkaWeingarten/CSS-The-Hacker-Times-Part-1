@@ -1,1 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+body{
+    background-color: #eee;
+    font-family: 'Source Sans Pro';
+
+}
+border{
+    color: #eee;
+   
+}
+
+.newspaper-container{
+    width: 700px;
+    background-color: white;
+    margin:50px auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px #ddd;
+    padding: 20px;
+    text-align: justify;
+
+}
+img{
+    text-align: center;
+    display: inline-block;
+}
+nav{
+    border-top: 2px solid #777;
+
+    border-bottom: 2px solid #777;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+nav ul li{
+    display: inline-flex;
+    color:#777;
+    padding:1%
+}
+nav ul li a{
+    text-decoration: none;
+    color:#777;
+}
+nav ul li a:hover{
+    color: #dd3232;
+}
+h5{
+   color: #dd3232
+}
+main{
+    display: inline-block;
+
+    padding: 20px 20px ;
+    text-align: justify;
+}
+.more-articles{
+    display: inline-flex;
+   }
+section{
+    padding: 20px;
+}
+
+.date{
+    text-align: left;
+}
+img{
+    width: 100%;
+}
+h1{
+ font-family: abril fatface;
+}
+ h2, h3, h4,h5{
+    font-family: roboto slab;
+   }
+
+   .even-more-articles{
+    display: inline-flex;
+   }
+
+   footer a{
+    text-decoration: none;
+   }
+   footer a:hover{
+    color: #dd3232;
+   }
